@@ -346,3 +346,4 @@ int main() {
 	printf("\n**********最小权重=%d***********\n", total);
 	return 0;
 }
+
