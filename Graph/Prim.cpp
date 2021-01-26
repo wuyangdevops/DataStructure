@@ -329,10 +329,10 @@ int main() {
 	printf("***************开始生成MGraph******************\n");
 	MGraph Graph = BuildGraph_M();
 	printf("\n\n**********图的邻接矩阵如下**************\n\n");
-	printf("\n\tA\tB\tC\tD\tE\tF\tG\tH\n");
-	for (int i = 0; i < 8; i++) {
+	printf("\n\tZ\tB\tW\tX\tD\tL\tH\tY\tF\tC\n");
+	for (int i = 0; i < 10; i++) {
 		printf("%c\t", Graph->Data[i]);
-		for (int j = 0; j < 8; j++) {
+		for (int j = 0; j < 10; j++) {
 			if (Graph->G[i][j] < INFINITY)
 				printf("%d\t", Graph->G[i][j]);
 			else
