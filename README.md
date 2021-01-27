@@ -17,6 +17,9 @@ BST.cpp - 二叉搜索树<br>
 ### Graph(图)
 LGraph.cpp - 邻接表存储的图<br>
 MGraph.cpp - 邻接矩阵存储的图<br>
+Prim.cpp - 构造MST的Prim算法实现<br>
+Dijkstra.cpp - 单源最短路径的Dijkstra算法实现<br>
+
 ## 说明
 (1) 代码完整可执行,用C/C++语言描述；<br>
 (2) Version_1.0包含以上常用数据结构的定义和常用方法的实现；<br>
